@@ -1,0 +1,16 @@
+.card-img{
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    filter: brightness(60%);
+}
+.card-title{
+    color: #d6c98f;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px #000;
+}
+.card-text{
+    color: #f5f3e7;
+    text-shadow: 1px 1px 4px #000;
+}
+
