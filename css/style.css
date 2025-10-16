@@ -1,16 +1,102 @@
-.card-img{
-    height: 350px;
-    object-fit: cover;
-    object-position: top;
-    filter: brightness(60%);
+
+.hero-img {
+  height: 350px;
+  object-fit: cover;
+  object-position: top;
+  filter: brightness(60%);
 }
-.card-title{
-    color: #d6c98f;
-    font-weight: 700;
-    text-shadow: 1px 1px 3px #000;
+
+.hero-overlay {
+  padding: 0 16px;
 }
-.card-text{
-    color: #f5f3e7;
-    text-shadow: 1px 1px 4px #000;
+.overlay-title {
+  color: #d6c98f;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px #000;
+  margin: 0; 
+  font-size: 20px; 
+}
+
+.overlay-text {
+  color: #f5f3e7;
+  text-shadow: 1px 1px 4px #000;
+  margin-top: 8px;
+}
+
+.overlay-subtext {
+  color: #c9c6b0;
+  font-size: 15px;
+  text-shadow: 1px 1px 3px #000;
+  margin-top: 8px;
+}
+.nadpis-zeleni-hadi{
+   color: limegreen;
+   justify-content: center;
+}
+.rodice-header {
+  padding: 32px 16px;
+  margin-bottom: 16px; 
+}
+
+.rodice-title {
+  color: #006705;           
+  font-weight: 800;
+  margin: 0 0 8px 0;
+  font-size: 30px;         
+  letter-spacing: 0.5px;
+}
+
+.rodice-subtitle {
+  color: #00a020;         
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.small-card {
+  width: 288px;
+}
+
+.uzovky-rodice-header {
+  padding: 32px 16px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  background: transparent;
+}
+
+.uzovky-rodice-title {
+  color: #b53600; 
+  font-weight: 800;
+  margin: 0 0 8px 0;
+  font-size: 30px;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+}
+
+.uzovky-rodice-subtitle {
+  color: #f98629;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.modry-rodice-header {
+  padding: 32px 16px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  background: transparent;
+}
+
+.modry-rodice-title {
+  color: #3900ac; 
+  font-weight: 800;
+  margin: 0 0 8px 0;
+  font-size: 30px;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+}
+
+.modry-rodice-subtitle {
+  color: #2684f8;
+  margin: 0 auto;
+  font-size: 20px;
 }
 

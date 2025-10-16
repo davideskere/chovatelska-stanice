@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
   <body>
@@ -41,43 +42,138 @@
   </div>
 </nav>
 
-<div class="card text-bg-dark border-0">
-  <img src="img/snake-2089129_1280.jpg"
-       class="card-img"
-       alt="pozadí">
-  <div class="card-img-overlay d-flex flex-column justify-content-center text-center">
-    <h5 class="card-title">Naše říše hadů</h5>
-    <p class="card-text">
-      Poznejte hady, kteří s námi sdílejí domov — elegantní, klidní a fascinující tvorové.
-    </p>
-    <p class="card-text">
-      Krása šupin, klid v pohybu a svět, který šeptá místo štěkání.
-    </p>
+  <div class="card text-bg-dark border-0 hero-card">
+    <img src="img/snake-2089129_1280.jpg"
+         class="card-img hero-img"
+         alt="pozadí">
+    <div class="card-img-overlay d-flex flex-column justify-content-center text-center hero-overlay">
+      <h5 class="card-title overlay-title">Naše říše hadů</h5>
+      <p class="card-text overlay-text">
+        Poznejte hady, kteří s námi sdílejí domov — elegantní, klidní a fascinující tvorové.
+      </p>
+      <p class="card-text overlay-subtext">
+        Krása šupin, klid v pohybu a svět, který šeptá místo štěkání.
+      </p>
+    </div>
   </div>
-</div>
 
-<div class="container text-center">
-  <div class="row">
-    <div class="col">
-    </div>
-    <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title"></h5>
-    <p class="card-text"></p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+  <section class="rodice-header">
+  <div class="container text-center">
+    <h1 class="rodice-title">Srdce zelené říše</h1>
+    <p class="rodice-subtitle">Esmé a Aris – dva klidní vládci větví, jejichž soulad dává život novým generacím.</p>
   </div>
-</div>
-    <div class="col">
+</section>
+
+  <div class="container text-center mt-4">
+    <div class="row justify-content-center g-3">
+      <div class="col-auto">
+        <div class="card small-card">
+          <img src="img/zeleny-had-1.png" class="card-img-top" alt="matka1">
+          <div class="card-body">
+            <h5 class="card-title">Esmé</h5>
+            <p class="card-text">Esmé je majestátní samice krajty zelené, která nejraději spočívá stočená na větvi
+               v teplém koutě terária. Má <b>výjimečně klidnou povahu.</b>
+                Pečlivě hlídá každý pohyb kolem svého hnízda.</p>
+                <p>Narozena: 6.7.2020</p>
+            <a href="#"></a><button type="button" class="btn btn-outline-success">Rodokmen (PDF)</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-auto">
+        <div class="card small-card">
+          <img src="img/zeleny-had-2.png" class="card-img-top" alt="otec1">
+          <div class="card-body">
+            <h5 class="card-title">Aris</h5>
+            <p class="card-text">Aris je samec krajty zelené s výrazným smaragdovým zbarvením a bystrým pohledem.
+              rád pozoruje svět z výšky a reaguje s rozvahou. Ve svém teritoriu působí jako <b>klidná síla.</b> </p>
+              <p>Narozen: 8.9.2019</p>
+            <a href="#"></a><button type="button" class="btn btn-outline-success">Rodokmen (PDF)</button></a>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
-</div>
+
+  <section class="uzovky-rodice-header">
+  <div class="container text-center">
+    <h1 class="uzovky-rodice-title">Tiché krásky mezi kameny</h1>
+    <p class="uzovky-rodice-subtitle">
+      Naše užovky – klidné a zvídavé pozorovatelky světa, které v sobě spojují eleganci i přirozenou zvědavost.
+    </p>
+  </div>
+</section>
+
+<div class="container text-center mt-4">
+    <div class="row justify-content-center g-3">
+      <div class="col-auto">
+        <div class="card small-card">
+          <img src="img/uzovka-matka.jpg" class="card-img-top" alt="matka1">
+          <div class="card-body">
+            <h5 class="card-title">Lyra</h5>
+            <p class="card-text">Lyra je samice užovky, která nejraději odpočívá schovaná mezi kameny a kořenem ve svém teráriu.
+               Má <b>trpělivou a klidnou povahu,</b> pozorně sleduje okolí a nikdy se nechová ukvapeně.</p>
+               <p>Narozena: 1.6.2019</p>
+            <a href="#"></a><button type="button" class="btn btn-outline-danger">Rodokmen (PDF)</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-auto">
+        <div class="card small-card">
+          <img src="img/uzovka-otec.jpg" class="card-img-top" alt="otec1">
+          <div class="card-body">
+            <h5 class="card-title">Kael</h5>
+            <p class="card-text">Kael je samec užovky s jemně červeným až oranžovím zbarvením a bystrým pohledem.
+               Je zvědavý a aktivní.
+               Ve svém teritoriu působí jako <b>tichá, stabilní přítomnost,</b> která dodává klid celé rodině. </p>
+               <p>Narozen: 3.4.2018</p>
+            <a href="#"></a><button type="button" class="btn btn-outline-danger">Rodokmen (PDF)</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="modry-rodice-header">
+  <div class="container text-center">
+    <h1 class="modry-rodice-title">Modrá elegance</h1>
+    <p class="modry-rodice-subtitle">
+     Užovka nádherná je pravá hvězda mezi hady – její jasně modré šupiny přitahují pohledy každého, kdo se na ni podívá.
+    </p>
+  </div>
+</section>
+
+<div class="container text-center mt-4">
+    <div class="row justify-content-center g-3">
+      <div class="col-auto">
+        <div class="card small-card">
+          <img src="img/matka-modra.jpg" class="card-img-top" alt="matka1">
+          <div class="card-body">
+            <h5 class="card-title">Azura</h5>
+            <p class="card-text">Azura tráví dny pomalu se vinouc mezi větvemi, kde si najde její oblíbený slunečný kout.
+               Je jemná, pozorná a nikdy nespěchá – každý její pohyb působí ladně a jistě.
+                Ráda sleduje dění v teráriu a <b>přináší pocit harmonie</b> všem, kdo ji pozorují.
+               <p>Narozena: 1.11.2021</p>
+            <a href="#"></a><button type="button" class="btn btn-outline-primary">Rodokmen (PDF)</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-auto">
+        <div class="card small-card">
+          <img src="img/otec-modra.webp" class="card-img-top" alt="otec1">
+          <div class="card-body">
+            <h5 class="card-title">Cobalt</h5>
+            <p class="card-text">Cobalt miluje objevování nových zákoutí a často zkoumá každý list,
+               kámen či větev. <b> hravý a zvědavý,</b> ale nikdy neopomene zůstat opatrný. Svou energickou,
+                ale klidnou přítomností dodává teráriu život a dynamiku.
+               <p>Narozen: 7.3.2021</p>
+            <a href="#"></a><button type="button" class="btn btn-outline-primary">Rodokmen (PDF)</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 
