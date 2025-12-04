@@ -1,43 +1,156 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="cs">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Kontakt | Hadí údolí</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><h1 class="display-3">Hadí údolí <h1></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="nase.zvirata.html"><span class="badge rounded-pill text-bg-warning">Naše zvířata</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mladata.html"><span class="badge rounded-pill text-bg-info">Mláďata</span></a>
-        
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="o.plemeni.html"><span class="badge rounded-pill text-bg-danger">O plemeni & Péče</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-       <span class="badge rounded-pill text-bg-success">Máte Zájem?</span>           
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="kontakt.html"><span class="badge rounded-pill text-bg-dark">Kontakt</span></a></li>
-            <li><a class="dropdown-item" href=""><span class="badge rounded-pill text-bg-light">Rezervace</span></a></li>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><h1 class="display-3">Hadí údolí</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="kontakt.html"><span class="badge rounded-pill text-bg-warning">Domů</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="nase.zvirata.html"><span class="badge rounded-pill text-bg-info">Naše zvířata</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="o.plemeni.html"><span class="badge rounded-pill text-bg-danger">O plemeni & Péče</span></a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                <span class="badge rounded-pill text-bg-success">Máte Zájem?</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="kontakt.html"><span class="badge rounded-pill text-bg-dark">Kontakt</span></a></li>
+                <li><a class="dropdown-item" href="#"><span class="badge rounded-pill text-bg-light">Rezervace</span></a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <div class="card text-bg-dark border-0 hero-card">
+      <img src="img/pozadi-mladata.webp" class="card-img hero-img" alt="pozadí">
+      <div class="card-img-overlay d-flex flex-column justify-content-center text-center hero-overlay">
+        <h5 class="card-title overlay-title">Hadí Údolí</h5>
+        <p class="card-text overlay-text">
+         Zodpovědný chov hadů s důrazem na zdraví, genetiku a klidný odchov
+        </p>
+        <p class="card-text overlay-subtext">
+         <li class="nav-item"><a class="nav-link active" href="mladata.html"><span class="badge rounded-pill text-bg-warning">Dostupná Mláďata</span></a></li>
+          <li class="nav-item"><a class="nav-link active" href="nase.zvirata.html"><span class="badge rounded-pill text-bg-warning">Poznat náš chov</span></a></li>
+        </p>
+      </div>
     </div>
-  </div>
-</nav>
+
+<div class="container py-4">
+
+<div class="text-center mb-4">
+<h1>Hadfí Údolí</h1>
+<p class="text-muted">Zodpovědný chov hadů s důrazem na zdraví a klidný odchov.</p>
+<a href="mladata.html" class="btn btn-success me-2">Dostupná mláďata</a>
+<a href="o.plemeni.html" class="btn btn-outline-secondary">Poznat náš chov</a>
+</div>
+
+<section id="o-nas" class="mb-4">
+<div class="card shadow-sm">
+<img src="img/closeup-head-dendrelaphis-formosus-snake.jpg" class="card-img-top" alt="Naše chovatelská stanice">
+<div class="card-body">
+<p class="card-text">Jsme malá, ale specializovaná chovatelská stanice zaměřená na zdravý odchov hadů v domácím prostředí. Každému mláděti věnujeme individuální péči — od stabilního příjmu potravy po klidné manipulace, aby bylo připravené na nový domov. Naše zázemí stavíme na čistotě, správných podmínkách a etickém přístupu k chovu. Věříme, že spojení kvalitní genetiky a poctivé práce dává vzniknout zdravým a krásným jedincům.</p>
+</div>
+</div>
+</section>
+
+<section id="mladata" class="mb-4">
+<h2 class="mb-3">Aktuálně k odběru</h2>
+<div class="row g-3">
+
+<div class="col-md-4">
+<div class="card h-100 shadow-sm">
+<img src="img/zelene-mlade2.jpg" class="card-img-top" alt="KUžovka Zelená">
+<div class="card-body">
+<h5 class="card-title">Vrh A — Lyra</h5>
+<p class="card-text">12. 6. 2025 • <span class="badge bg-success">Volné</span></p>
+<p class="card-text">Barevná, klidná mláďata z prověřené linie.</p>
+<a href="mladata.html" class="btn btn-success">Detail</a>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4">
+<div class="card h-100 shadow-sm">
+<img src="img/cervene-mlade1.jpg" class="card-img-top" alt="Užovka červená">
+<div class="card-body">
+<h5 class="card-title">Vrh B — Nira</h5>
+<p class="card-text">5. 5. 2025 • <span class="badge bg-danger">Rezervace</span></p>
+<p class="card-text">Silná mláďata, pravidelně žerou a bezchybně svlékají.</p>
+<a href="mladata.html" class="btn btn-success">Detail</a>
+</div>
+</div>
+</div>
+
+
+<div class="col-md-4">
+<div class="card h-100 shadow-sm">
+<img src="img/matka-modra.jpg" class="card-img-top" alt="Užovka modrá">
+<div class="card-body">
+<h5 class="card-title">Vrh C — Nami</h5>
+<p class="card-text">28. 4. 2025 • <span class="badge bg-success">Volné</span></p>
+<p class="card-text">Ideální pro začátečníky, krásné kontrastní zbarvení.</p>
+<a href="mladata.html" class="btn btn-success">Detail</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="mb-4">
+<h2>Důvěryhodnost</h2>
+<ul class="list-group">
+<li class="list-group-item">Certifikované testy: pravidelné vyšetření na kryptosporidium a parazity</li>
+<li class="list-group-item">Členství: Hadí Swag</li>
+<li class="list-group-item">Praxe: více než 10 let zkušeností s chovem a odchovem plazů</li>
+</ul>
+</section>
+
+<section class="mb-4">
+<h2>Reference</h2>
+<div class="d-flex mb-2 align-items-center">
+<img src="img/profilovka-1.webp" class="rounded me-2" style="width:50px; height:50px;" alt="Petra K.">
+<p class="mb-0">„Mládě od nich je zvyklé na kontakt, krásně žere a je klidné. Doporučuju!“ — Petra K.</p>
+</div>
+<div class="d-flex mb-2 align-items-center">
+<img src="img/profilovka-2.webp" class="rounded me-2" style="width:50px; height:50px;" alt="Tomáš R.">
+<p class="mb-0">„Profesionální přístup, rychlá komunikace a zdravý had. Lepší stanici jsme nenašli.“ — Tomáš R.</p>
+</div>
+</section>
+
+<section class="mb-4">
+<h2>Kontakt</h2>
+<p> Telefon: 245 589 571</p>
+<p> E-mail: hadi.udoli@gmail.com</p>
+<form class="mb-4">
+<div class="mb-2">
+<input type="text" class="form-control" placeholder="Jméno" required>
+</div>
+<div class="mb-2">
+<input type="email" class="form-control" placeholder="E-mail" required>
+</div>
+<div class="mb-2">
+<textarea class="form-control" rows="3" placeholder="Zpráva"></textarea>
+</div>
+<button type="submit" class="btn btn-success">Odeslat</button>
+</form>
+</section>
+
+
+</div>
