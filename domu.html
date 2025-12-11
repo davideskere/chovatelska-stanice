@@ -10,107 +10,115 @@
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><h1 class="display-3">Hadí údolí</h1></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link active" href="kontakt.html"><span class="badge rounded-pill text-bg-warning">Domů</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="nase.zvirata.html"><span class="badge rounded-pill text-bg-info">Naše zvířata</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="o.plemeni.html"><span class="badge rounded-pill text-bg-danger">O plemeni & Péče</span></a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
-                <span class="badge rounded-pill text-bg-success">Máte Zájem?</span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="kontakt.html"><span class="badge rounded-pill text-bg-dark">Kontakt</span></a></li>
-                <li><a class="dropdown-item" href="#"><span class="badge rounded-pill text-bg-light">Rezervace</span></a></li>
-              </ul>
-            </li>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4 shadow-sm">
+  <div class="container">
+
+    <a class="navbar-brand fs-1 fw-bold text-white" href="domu.html">Hadí údolí</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link text-white fs-5 px-3" href="mladata.html">Mláďata</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white fs-5 px-3" href="nase.zvirata.html">Naše zvířata</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white fs-5 px-3" href="o.plemeni.html">O plemeni & Péče</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white fs-5 px-3" href="kontakt.html" data-bs-toggle="dropdown">
+            Máte Zájem?
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="kontakt.html">Kontakt</a></li>
+            <li><a class="dropdown-item" href="kontakt.html">Rezervace</a></li>
           </ul>
-        </div>
-      </div>
-    </nav>
+        </li>
 
-    
-    <div class="card text-bg-dark border-0 hero-card">
-      <img src="img/pozadi-mladata.webp" class="card-img hero-img" alt="pozadí">
-      <div class="card-img-overlay d-flex flex-column justify-content-center text-center hero-overlay">
-        <h5 class="card-title overlay-title">Hadí Údolí</h5>
-        <p class="card-text overlay-text">
-         Zodpovědný chov hadů s důrazem na zdraví, genetiku a klidný odchov
-        </p>
-        <p class="card-text overlay-subtext">
-         <li class="nav-item"><a class="nav-link active" href="mladata.html"><span class="badge rounded-pill text-bg-warning">Dostupná Mláďata</span></a></li>
-          <li class="nav-item"><a class="nav-link active" href="nase.zvirata.html"><span class="badge rounded-pill text-bg-warning">Poznat náš chov</span></a></li>
-        </p>
-      </div>
+      </ul>
     </div>
+  </div>
+</nav>
+    
+ <div class="card position-relative text-white">
+  <img src="img/closeup-head-dendrelaphis-formosus-snake.jpg" class="card-img" alt="Naše chovatelská stanice">
 
-<div class="container py-4">
+  <div class="card-img-overlay d-flex flex-column justify-content-center text-center hero-overlay">
+    <h5 class="card-title overlay-title">Hadí Údolí</h5>
+    <p class="card-text overlay-text">
+      Zodpovědný chov hadů s důrazem na zdraví, genetiku a klidný odchov
+    </p>
 
-<div class="text-center mb-4">
-<h1>Hadfí Údolí</h1>
-<p class="text-muted">Zodpovědný chov hadů s důrazem na zdraví a klidný odchov.</p>
-<a href="mladata.html" class="btn btn-success me-2">Dostupná mláďata</a>
-<a href="o.plemeni.html" class="btn btn-outline-secondary">Poznat náš chov</a>
+    <div class="d-flex flex-column gap-2 align-items-center">
+      <a class="btn btn-warning" href="mladata.html">Dostupná mláďata</a>
+      <a class="btn btn-warning" href="nase.zvirata.html">Poznat náš chov</a>
+    </div>
+  </div>
 </div>
+
 
 <section id="o-nas" class="mb-4">
-<div class="card shadow-sm">
-<img src="img/closeup-head-dendrelaphis-formosus-snake.jpg" class="card-img-top" alt="Naše chovatelská stanice">
-<div class="card-body">
-<p class="card-text">Jsme malá, ale specializovaná chovatelská stanice zaměřená na zdravý odchov hadů v domácím prostředí. Každému mláděti věnujeme individuální péči — od stabilního příjmu potravy po klidné manipulace, aby bylo připravené na nový domov. Naše zázemí stavíme na čistotě, správných podmínkách a etickém přístupu k chovu. Věříme, že spojení kvalitní genetiky a poctivé práce dává vzniknout zdravým a krásným jedincům.</p>
-</div>
-</div>
+    <div class="card-body">
+      <p class="card-text">
+        Jsme malá, ale specializovaná chovatelská stanice zaměřená na zdravý odchov hadů v domácím prostředí.
+        Každému mláděti věnujeme individuální péči — od stabilního příjmu potravy po klidné manipulace, aby bylo
+        připravené na nový domov. Naše zázemí stavíme na čistotě, správných podmínkách a etickém přístupu k chovu.
+        Věříme, že spojení kvalitní genetiky a poctivé práce dává vzniknout zdravým a krásným jedincům.
+      </p>
+    </div>
+  </div>
 </section>
 
 <section id="mladata" class="mb-4">
-<h2 class="mb-3">Aktuálně k odběru</h2>
-<div class="row g-3">
+  <h2 class="mb-3">Aktuálně k odběru</h2>
+  <div class="row g-3">
 
-<div class="col-md-4">
-<div class="card h-100 shadow-sm">
-<img src="img/zelene-mlade2.jpg" class="card-img-top" alt="KUžovka Zelená">
-<div class="card-body">
-<h5 class="card-title">Vrh A — Lyra</h5>
-<p class="card-text">12. 6. 2025 • <span class="badge bg-success">Volné</span></p>
-<p class="card-text">Barevná, klidná mláďata z prověřené linie.</p>
-<a href="mladata.html" class="btn btn-success">Detail</a>
-</div>
-</div>
-</div>
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="img/zelene-mlade2.jpg" class="card-img-top" alt="KUžovka Zelená">
+        <div class="card-body">
+          <h5 class="card-title">Lyra</h5>
+          <p class="card-text">12. 6. 2025 • <span class="badge bg-success">Volné</span></p>
+          <p class="card-text">Barevná, klidná mláďata z prověřené linie.</p>
+          <a href="mladata.html" class="btn btn-success">Detail</a>
+        </div>
+      </div>
+    </div>
 
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="img/cervene-mlade1.jpg" class="card-img-top" alt="Užovka červená">
+        <div class="card-body">
+          <h5 class="card-title">Nira</h5>
+          <p class="card-text">5. 5. 2025 • <span class="badge bg-danger">Rezervace</span></p>
+          <p class="card-text">Silná mláďata, pravidelně žerou a bezchybně svlékají.</p>
+          <a href="mladata.html" class="btn btn-success">Detail</a>
+        </div>
+      </div>
+    </div>
 
-<div class="col-md-4">
-<div class="card h-100 shadow-sm">
-<img src="img/cervene-mlade1.jpg" class="card-img-top" alt="Užovka červená">
-<div class="card-body">
-<h5 class="card-title">Vrh B — Nira</h5>
-<p class="card-text">5. 5. 2025 • <span class="badge bg-danger">Rezervace</span></p>
-<p class="card-text">Silná mláďata, pravidelně žerou a bezchybně svlékají.</p>
-<a href="mladata.html" class="btn btn-success">Detail</a>
-</div>
-</div>
-</div>
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="img/matka-modra.jpg" class="card-img-top" alt="Užovka modrá">
+        <div class="card-body">
+          <h5 class="card-title">Nami</h5>
+          <p class="card-text">28. 4. 2025 • <span class="badge bg-success">Volné</span></p>
+          <p class="card-text">Ideální pro začátečníky, krásné kontrastní zbarvení.</p>
+          <a href="mladata.html" class="btn btn-success">Detail</a>
+        </div>
+      </div>
+    </div>
 
-
-<div class="col-md-4">
-<div class="card h-100 shadow-sm">
-<img src="img/matka-modra.jpg" class="card-img-top" alt="Užovka modrá">
-<div class="card-body">
-<h5 class="card-title">Vrh C — Nami</h5>
-<p class="card-text">28. 4. 2025 • <span class="badge bg-success">Volné</span></p>
-<p class="card-text">Ideální pro začátečníky, krásné kontrastní zbarvení.</p>
-<a href="mladata.html" class="btn btn-success">Detail</a>
-</div>
-</div>
-</div>
-</div>
+  </div>
 </section>
 
 <section class="mb-4">
@@ -153,4 +161,25 @@
 </section>
 
 
-</div>
+
+   <footer class="bg-dark text-white py-4">
+      <div class="container text-center text-md-start">
+        <div class="row justify-content-between">
+          <div class="col-md-4 mb-3">
+            <h5>Hadí údolí</h5>
+            <p>Prestižní chovatelská stanice hadů a plazů.</p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5>Odkazy</h5>
+            <ul class="list-unstyled">
+              <li><a href="domu.html" class="text-white text-decoration-none">Domů</a></li>
+              <li><a href="o.plemeni.html" class="text-white text-decoration-none">O plemeni</a></li>
+              <li><a href="nase.zvirata.html" class="text-white text-decoration-none">Naše Zvířata</a></li>
+              <li><a href="mladata.html" class="text-white text-decoration-none">Mláďata</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
